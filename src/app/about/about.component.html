@@ -1,0 +1,15 @@
+<img src="../assets/image/header3.jpg" class="img-header">
+<div class="row col-md-12" style="margin-top:50px">
+  <div class="col-md-6" style="margin-left:5%">
+    <div class="card3" *ngFor="let item of form">
+      <h5>{{item.judul}}</h5>
+      <p style="text-align:justify;margin-top:5%"> {{item.description |slice:0:300}}</p>
+      <div *ngIf="item.description?.length > 120">
+        <p class="continue">Learn More</p>
+      </div>
+    </div>
+  </div>
+  <div class=" col-md-6" style="margin-left:-150px">
+    <img src="../assets/image/berita4.jpeg" class="img-form">
+  </div>
+</div>

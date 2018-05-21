@@ -1,0 +1,143 @@
+/* You can add global styles to this file, and also import other style files */
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.bg-navbar {
+    background-color: #1d1d94;
+    height: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: 150px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
+.card3 {
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 5%;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+.card4 {
+    box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.2);
+    margin: 5%;
+    border-radius: 15px;
+    padding: 10%;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    margin:8% 0% 8% -1%;
+    height:180px
+}
+
+.line-hr {
+    height:80px;
+    width:90%;
+    background-color:rgb(31, 23, 139);
+    padding:0px 20px 0px 20px;
+    border-radius:15px;
+    margin:50px 30px 50px 60px;
+    box-shadow: 4px 4px 4px 4px rgba(158, 154, 154, 0.2);
+}
+.img-news{
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px 0px -10px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.img-form{
+    width:100%;
+    height:70%;
+    max-height: 350px;
+    border-radius:15px;
+    margin: 10% -10% 0% 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img-form2{
+    width:100%;
+    height:80%;
+    border-radius:15px;
+    margin: 10% -10% 0% 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.img-header{
+    height:400px;
+    width:100%;
+    border-bottom-right-radius: 40%;
+}
+.container {
+    padding: 2px 16px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-top: 1px solid rgb(202, 195, 195);
+    border-radius: .3rem;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.font-list{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 0.75rem;
+    text-align: justify;
+    color: rgb(184, 179, 179);
+}
+
+.font-nav-act{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 0.75rem;
+    color:white;
+    text-decoration: underline;
+}
+
+.font-nav{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 0.75rem;
+    color:rgb(184, 180, 180);
+}
+
+.font-menu {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color:rgb(37, 35, 35);
+    width: bol;
+    font:icon;
+}
+
+.f{
+    font-size: 12px;
+}
+
+.continue {
+    cursor:pointer;
+    color:rgb(81, 70, 155)
+}
